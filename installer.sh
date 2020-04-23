@@ -2,7 +2,7 @@
 
 if [[ $EUID -eq 0 ]];
 then
-    cp git-pusher.sh /bin/git-pusher
+    cp git-pusher.sh /usr/local/bin/git-pusher
     chmod +x /bin/git-pusher
 else
     echo "run as root"
